@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/microservices_assure/microservices_assure.iml" filepath="$PROJECT_DIR$/microservices_assure/microservices_assure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservices_contrat/microservices_contrat.iml" filepath="$PROJECT_DIR$/microservices_contrat/microservices_contrat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservices_contrat_mongodb/microservices_contrat_mongodb.iml" filepath="$PROJECT_DIR$/microservices_contrat_mongodb/microservices_contrat_mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservices_produit/microservices_produit.iml" filepath="$PROJECT_DIR$/microservices_produit/microservices_produit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/processus_contrat/processus_contrat.iml" filepath="$PROJECT_DIR$/processus_contrat/processus_contrat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/proj-plateforme.iml" filepath="$PROJECT_DIR$/.idea/proj-plateforme.iml" />
+    </modules>
+  </component>
+</project>

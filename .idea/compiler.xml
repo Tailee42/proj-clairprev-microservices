@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservices_produit" />
+        <module name="microservices_assure" />
+        <module name="microservices_contrat_mongodb" />
+        <module name="microservices_contrat" />
+        <module name="processus_contrat" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservices_assure" target="11" />
+      <module name="microservices_contrat" target="11" />
+      <module name="microservices_contrat_mongodb" target="11" />
+      <module name="microservices_produit" target="11" />
+      <module name="processus_contrat" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="microservices_assure" options="-parameters" />
+      <module name="microservices_contrat" options="-parameters" />
+      <module name="microservices_contrat_mongodb" options="-parameters" />
+      <module name="microservices_produit" options="-parameters" />
+      <module name="processus_contrat" options="-parameters" />
+    </option>
+  </component>
+</project>
